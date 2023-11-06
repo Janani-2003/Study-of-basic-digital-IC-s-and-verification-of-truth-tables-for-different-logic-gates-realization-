@@ -63,7 +63,7 @@ Check all the gates following the same procedure.
 Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
 Developed by: 212221230039 
 RegisterNumber: JANANI R
-
+```
 module Gates (a, b, yand, yor, ynot, yxor, ynand, ynor, yxnor);
 input a, b;
 output yand, yor, ynot, yxor, ynand, ynor, yxnor;
@@ -74,7 +74,8 @@ xor (yxor, a, b);
 nand (ynand, a, b);
 nor (ynor, a, b);
 xnor (yxnor, a, b);
-endmodule 
+endmodule
+```
 */
 ## Truthtable
 ![image](https://github.com/Janani-2003/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/94288340/d6ec75c4-5d21-4cd3-b586-f96a3f573750)
